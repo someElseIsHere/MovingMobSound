@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "movingmobsound",
+  "version": "${version}",
+  "name": "Moving Mob Sound",
+  "description": "makes mobs sound move with them :)",
+  "authors": [
+    "thePlaceholder"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.theplaceholder.movingmobsound.fabric.MovingMobSoundFabric"
+    ]
+  },
+  "mixins": [
+    "movingmobsound.fabric.mixins.json",
+    "movingmobsound.mixins.json"
+  ],
+  "accessWidener": "movingmobsound.accesswidener",
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.4",
+    "architectury": ">=11.1.17"
+  }
+}

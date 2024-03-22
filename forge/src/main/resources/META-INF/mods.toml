@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[49,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "movingmobsound"
+version = "${version}"
+displayName = "Moving Mob Sound"
+authors = "thePlaceholder"
+description = '''
+makes mobs sound move with them :)
+'''
+logoFile = "icon.png"
+
+[[dependencies.movingmobsound]]
+modId = "forge"
+mandatory = true
+versionRange = "[49,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.movingmobsound]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.4,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.movingmobsound]]
+modId = "architectury"
+mandatory = true
+versionRange = "[11.1.17,)"
+ordering = "AFTER"
+side = "BOTH"
